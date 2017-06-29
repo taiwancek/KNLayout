@@ -14,4 +14,6 @@ s.source_files = "Source","Source/Classes" ,"Source/Extension"
 s.pod_target_xcconfig =  {
 'SWIFT_VERSION' => '3.0',
 }
+
+s.ios.frameworks = 'UIKit', 'Foundation'
 end
