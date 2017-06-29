@@ -6,9 +6,9 @@
 //  Copyright © 2017年 . All rights reserved.
 //
 
-import UIKit
-import Foundation
 
+import Foundation
+import UIKit
 
 public extension Int
 {

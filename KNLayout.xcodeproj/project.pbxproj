@@ -11,6 +11,7 @@
 		2305A2881E9F43E10099D048 /* KNConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305A2871E9F43E10099D048 /* KNConstraint.swift */; };
 		239085A51F04C1A200BA2BD7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 239085A41F04C1A200BA2BD7 /* README.md */; };
 		239085EB1F04D72B00BA2BD7 /* KNLayout.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */; };
+		239085FB1F05643800BA2BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239085F71F055B9800BA2BD7 /* UIKit.framework */; };
 		23A111191E404E9B0055C4DE /* ExInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A111181E404E9B0055C4DE /* ExInt.swift */; };
 		23A1111B1E404F370055C4DE /* ExUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1111A1E404F370055C4DE /* ExUIDevice.swift */; };
 		23A111211E4051640055C4DE /* KNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A111201E4051640055C4DE /* KNViewController.swift */; };
@@ -26,6 +27,8 @@
 		237B32D11DABE5F900C6BB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		239085A41F04C1A200BA2BD7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KNLayout.podspec; sourceTree = "<group>"; };
+		239085F71F055B9800BA2BD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		239085F91F055B9E00BA2BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23A111181E404E9B0055C4DE /* ExInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExInt.swift; sourceTree = "<group>"; };
 		23A1111A1E404F370055C4DE /* ExUIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExUIDevice.swift; sourceTree = "<group>"; };
 		23A111201E4051640055C4DE /* KNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239085FB1F05643800BA2BD7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +66,7 @@
 				237B32CF1DABE5F900C6BB52 /* Source */,
 				239085A41F04C1A200BA2BD7 /* README.md */,
 				239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */,
+				239085F61F055B9800BA2BD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +87,15 @@
 				2305A2831E9F408A0099D048 /* KNFramework.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		239085F61F055B9800BA2BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				239085F91F055B9E00BA2BD7 /* Foundation.framework */,
+				239085F71F055B9800BA2BD7 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		23A111231E4054DA0055C4DE /* Classes */ = {
@@ -318,10 +332,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lxml2",
-				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanmancek.knlayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
@@ -352,10 +364,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lxml2",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanmancek.knlayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
