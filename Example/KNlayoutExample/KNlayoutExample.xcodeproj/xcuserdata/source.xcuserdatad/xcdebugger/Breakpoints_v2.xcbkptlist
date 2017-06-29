@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KNlayoutExample/Controller/ViewController/ViewController.swift"
+            timestampString = "520407229.402764"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KNlayoutExample.ViewController.loadView () -&gt; ()"
+                  moduleName = "KNlayoutExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/source/Dropbox/taiwanmancek/projects/KNLayout/Example/KNlayoutExample/KNlayoutExample/Controller/ViewController/ViewController.swift"
+                  timestampString = "520407238.241346"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KNlayoutExample.ViewController.(loadView () -&gt; ()).(closure #1)"
+                  moduleName = "KNlayoutExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/source/Dropbox/taiwanmancek/projects/KNLayout/Example/KNlayoutExample/KNlayoutExample/Controller/ViewController/ViewController.swift"
+                  timestampString = "520407238.243316"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KNlayoutExample/Controller/ViewController/ViewController+KNLayoutHelper.swift"
+            timestampString = "520407245.433904"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "constraintForPortraitWithPhone()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
