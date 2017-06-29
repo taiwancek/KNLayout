@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = "KNLayout"
-s.version     = "1.0"
+s.version     = "1.1"
 s.summary     = "KNLayout is a very small library to help make your use of `NSLayoutConstraint` in Swift more legible & declarative. "
 s.homepage    = "https://github.com/taiwancek/KNLayout"
 s.license     = { :type => "MIT" }
