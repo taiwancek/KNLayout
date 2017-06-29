@@ -10,6 +10,7 @@
 		2305A2841E9F408A0099D048 /* KNFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305A2831E9F408A0099D048 /* KNFramework.swift */; };
 		2305A2881E9F43E10099D048 /* KNConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305A2871E9F43E10099D048 /* KNConstraint.swift */; };
 		239085A51F04C1A200BA2BD7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 239085A41F04C1A200BA2BD7 /* README.md */; };
+		239085EB1F04D72B00BA2BD7 /* KNLayout.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */; };
 		23A111191E404E9B0055C4DE /* ExInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A111181E404E9B0055C4DE /* ExInt.swift */; };
 		23A1111B1E404F370055C4DE /* ExUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1111A1E404F370055C4DE /* ExUIDevice.swift */; };
 		23A111211E4051640055C4DE /* KNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A111201E4051640055C4DE /* KNViewController.swift */; };
@@ -24,6 +25,7 @@
 		237B32CD1DABE5F900C6BB52 /* KNLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		237B32D11DABE5F900C6BB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		239085A41F04C1A200BA2BD7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KNLayout.podspec; sourceTree = "<group>"; };
 		23A111181E404E9B0055C4DE /* ExInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExInt.swift; sourceTree = "<group>"; };
 		23A1111A1E404F370055C4DE /* ExUIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExUIDevice.swift; sourceTree = "<group>"; };
 		23A111201E4051640055C4DE /* KNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				237B32CE1DABE5F900C6BB52 /* Products */,
 				237B32CF1DABE5F900C6BB52 /* Source */,
 				239085A41F04C1A200BA2BD7 /* README.md */,
+				239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239085EB1F04D72B00BA2BD7 /* KNLayout.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
