@@ -10,7 +10,7 @@ s.requires_arc = true
 s.osx.deployment_target = "10.12.5"
 s.ios.deployment_target = "8.0"
 s.source   = { :git => "https://github.com/taiwancek/KNLayout.git", :tag => s.version }
-s.source_files = "Source/*.swift"
+s.source_files = "Source"
 s.pod_target_xcconfig =  {
 'SWIFT_VERSION' => '3.0',
 }
