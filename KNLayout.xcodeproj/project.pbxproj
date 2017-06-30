@@ -12,6 +12,8 @@
 		239085A51F04C1A200BA2BD7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 239085A41F04C1A200BA2BD7 /* README.md */; };
 		239085EB1F04D72B00BA2BD7 /* KNLayout.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */; };
 		239085FB1F05643800BA2BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239085F71F055B9800BA2BD7 /* UIKit.framework */; };
+		239086111F061AC900BA2BD7 /* screenshot_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2390860F1F061AC900BA2BD7 /* screenshot_landscape.png */; };
+		239086121F061AC900BA2BD7 /* screenshot_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 239086101F061AC900BA2BD7 /* screenshot_portrait.png */; };
 		23A111191E404E9B0055C4DE /* ExInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A111181E404E9B0055C4DE /* ExInt.swift */; };
 		23A1111B1E404F370055C4DE /* ExUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1111A1E404F370055C4DE /* ExUIDevice.swift */; };
 		23A111211E4051640055C4DE /* KNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A111201E4051640055C4DE /* KNViewController.swift */; };
@@ -29,6 +31,8 @@
 		239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KNLayout.podspec; sourceTree = "<group>"; };
 		239085F71F055B9800BA2BD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		239085F91F055B9E00BA2BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2390860F1F061AC900BA2BD7 /* screenshot_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_landscape.png; sourceTree = "<group>"; };
+		239086101F061AC900BA2BD7 /* screenshot_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_portrait.png; sourceTree = "<group>"; };
 		23A111181E404E9B0055C4DE /* ExInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExInt.swift; sourceTree = "<group>"; };
 		23A1111A1E404F370055C4DE /* ExUIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExUIDevice.swift; sourceTree = "<group>"; };
 		23A111201E4051640055C4DE /* KNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				237B32CF1DABE5F900C6BB52 /* Source */,
 				239085A41F04C1A200BA2BD7 /* README.md */,
 				239085EA1F04D72B00BA2BD7 /* KNLayout.podspec */,
+				2390860F1F061AC900BA2BD7 /* screenshot_landscape.png */,
+				239086101F061AC900BA2BD7 /* screenshot_portrait.png */,
 				239085F61F055B9800BA2BD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239086121F061AC900BA2BD7 /* screenshot_portrait.png in Resources */,
 				239085EB1F04D72B00BA2BD7 /* KNLayout.podspec in Resources */,
+				239086111F061AC900BA2BD7 /* screenshot_landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
